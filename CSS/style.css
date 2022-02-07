@@ -1,0 +1,240 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+.text-center{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headBar{
+    display: flex;
+    /* justify-content: space-evenly; */
+    width: 65%;
+    height: 10vh;
+    margin: 60px auto 120px auto;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+.headItem{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 14px;
+    cursor: pointer;
+    transition: all .3s;
+    position: relative;
+}
+
+/* .headItem::after{
+    content: "";
+    position: absolute;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-top: 9px solid #ff8d1a;
+    top: 100%;
+    left: 47%;
+} */
+
+.notch{
+    content: "";
+    position: absolute;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-top: 9px solid #ff8d1a;
+    top: 100%;
+    left: 47%;
+}
+
+.cards{
+    display: none;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.card1{
+    transition: all .5s; 
+}
+.card1:hover .H-first{
+    background: #ff8d1a;
+    color: #fff;
+}
+.card1:hover .L-first{
+    background-color: #fff;
+    color: #ff8d1a;
+}
+
+.card2{
+    transition: all .5s; 
+}
+.card2:hover .H-second{
+    background: #ff8d1a;
+    color: #fff;
+}
+.card2:hover .L-second{
+    background-color: #fff;
+    color: #ff8d1a;
+}
+
+.card3{
+    transition: all .5s; 
+}
+.card3:hover .H-third{
+    background: #ff8d1a;
+    color: #fff;
+}
+.card3:hover .L-third{
+    background-color: #fff;
+    color: #ff8d1a;
+}
+
+
+
+.cardItem{
+    width: 28%;
+    height: 600px;
+    background: #fff;
+    box-shadow: 0 3px 7px rgb(0, 0, 0, 0.3);
+    transition: all .5s;
+}
+.cardItem:hover{
+    transform: scale(1.1);
+
+}
+
+.cardHeading{
+    height: 20vh;
+    background: #fff4e8;
+    padding: 20px;
+}
+
+.cardText{
+    margin: 0 0 50px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.right{
+    margin-bottom: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 6vw;
+    height: 3vh;
+    background-color: #ff8d1a;
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.subHeading{
+    height: 260px;
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #e5eaf4;
+    /* position: relative; */
+}
+
+.plan_tag{
+    position: absolute;
+    left: 38.4%;
+    top: 98vh;
+    background: #2ab7ca;
+    padding: 2px 8px;
+    color: #fff;
+    transition: all .5s;
+    display: block;
+}
+
+
+.plan_tag2{
+    position: absolute;
+    left: 69.2%;
+    top: 98vh;
+    background: #ff8d1a;
+    padding: 2px 8px;
+    color: #fff;
+    z-index: 100;
+}
+
+.subHeadText{
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.subText{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #5a7184;
+    margin: 10px 0;
+    font-weight: 500;
+}
+.subText2 a{
+    text-decoration: none;
+    color: #fe8d1b;    
+}
+.subText2{
+    margin: 10px 0;
+}
+.endSec{
+    padding: 20px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.endText{
+    font-size: 35px;
+    font-weight: 900;
+}
+.endPara{
+    color: #1565d8;
+    font-size: 18px;
+}
+
+.endTL{
+    text-decoration: line-through;
+}
+
+.btn{
+    border: 1px solid #fe8d1b;
+    background-color: #fe8d1b;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 44px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.label {
+    background: #fff4e8;
+    padding: 3.2px 8px;
+    color: #ff8d1a;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-bottom: 12px;
+}

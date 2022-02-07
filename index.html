@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/responsive.css" />
+    <title>Coding Curriculum</title>
+  </head>
+  <body>
+    <div class="heading">
+      <h1 class="text-center">Coding Curriculum</h1>
+    </div>
+
+    <div class="headBar">
+      <div class="headItem" onclick="showPanel(0)">
+        <h2>Beginner</h2>
+        <br />
+        <h5>(Grade 1)</h5>
+        <div class="notch"></div>
+      </div>
+      <div class="headItem" onclick="showPanel(1)">
+        <h2>Intermediate</h2>
+        <br />
+        <h5>(Grade 2-3)</h5>
+        <div class="notch"></div>
+      </div>
+      <div class="headItem" onclick="showPanel(2)">
+        <h2>Advanced</h2>
+        <br />
+        <h5>(Grade 4-6)</h5>
+        <div class="notch"></div>
+      </div>
+
+      <div class="headItem" onclick="showPanel(3)">
+        <h2>Professional</h2>
+        <br />
+        <h5>(Grade 7-9)</h5>
+        <div class="notch"></div>
+      </div>
+      <div class="headItem" onclick="showPanel(4)">
+        <h2>Applied Tech</h2>
+        <br />
+        <h5>(Grade 10+)</h5>
+        <div class="notch"></div>
+      </div>
+    </div>
+
+    <div class="cards active">
+      <div class="cardItem card1">
+        <div class="cardHeading H-first">
+          <h2 class="cardText">Introduction To Coding</h2>
+          <section class="flex">
+            <p class="right">8 Classes</p>
+            <p class="left L-first">Save 5%</p>
+          </section>
+        </div>
+        <div class="subHeading">
+          <h3 class="subHeadText">Curriculum Includes</h3>
+          <p class="subText">Sequence, Fundamentals Coding Blocks, Loops</p>
+          <p class="subText2">
+            <a
+              href="https://s3-cdnwhjr.whjr.online/website/curriculumpdf/02-04-2021/int.pdf"
+              target="_blank"
+              rel="noreferrer noopener"
+              >View Detailed curriculum</a
+            >
+          </p>
+        </div>
+        <div class="endSec">
+          <section class="flex">
+            <h1 class="endText">Rs. 6,399</h1>
+            <h3 class="endTL">Rs. 6,799</h3>
+          </section>
+          <p class="endPara">Price Per Class Rs. 800</p>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="cardItem card2">
+        <div class="cardHeading H-second">
+          <h2 class="cardText">App Developer Certificate</h2>
+          <section class="flex">
+            <p class="right">48 Classes</p>
+            <p class="left L-second">Save 10%</p>
+          </section>
+        </div>
+        <div class="subHeading">
+          <h3 class="subHeadText">Curriculum Includes</h3>
+          <p class="label">Introduction to Coding</p>
+          <p class="subText">
+            Events / UI,Conditionals, Complex Loop, Logic Structures, Turtle
+            Coding
+          </p>
+          <p class="subText2">
+            <a
+              href="https://s3-cdnwhjr.whjr.online/website/curriculumpdf/02-04-2021/int.pdf"
+              target="_blank"
+              rel="noreferrer noopener"
+              >View Detailed curriculum</a
+            >
+          </p>
+        </div>
+        <div class="endSec">
+          <section class="flex">
+            <h1 class="endText">Rs. 35,999</h1>
+            <h3 class="endTL">Rs. 39,999</h3>
+          </section>
+          <p class="endPara">Price Per Class Rs. 800</p>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="cardItem card3">
+        <div class="cardHeading H-third">
+          <h2 class="cardText">Advance Coding with Space Tech</h2>
+          <section class="flex">
+            <p class="right">144 Classes</p>
+            <p class="left L-third">Save 16%</p>
+          </section>
+        </div>
+        <div class="subHeading">
+          <h3 class="subHeadText">Curriculum Includes</h3>
+          <p class="label">Introduction to Coding</p>
+          <p class="label">App Developer Certificate</p>
+          <p class="subText">
+            Extended UI/UX, Rich GUI app, Space Tech simulation in Space Lab /
+            Game Lab, Professional Game Design
+          </p>
+          <p class="subText2">
+            <a
+              href="https://s3-cdnwhjr.whjr.online/website/curriculumpdf/02-04-2021/int.pdf"
+              target="_blank"
+              rel="noreferrer noopener"
+              >View Detailed curriculum</a
+            >
+          </p>
+        </div>
+        <div class="endSec">
+          <section class="flex">
+            <h1 class="endText">Rs. 99,999</h1>
+            <h3 class="endTL">Rs. 119,999</h3>
+          </section>
+          <p class="endPara">Price Per Class Rs. 800</p>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="cardItem card1">
+        <div class="cardHeading H-first">
+          <h2 class="cardText">Introduction To Coding</h2>
+          <section class="flex">
+            <p class="right">8 Classes</p>
+            <p class="left L-first">Save 5%</p>
+          </section>
+        </div>
+        <div class="subHeading">
+          <h3 class="subHeadText">Curriculum Includes</h3>
+          <p class="subText">Sequence, Fundamentals Coding Blocks, Loops</p>
+          <p class="subText2">
+            <a
+              href="https://s3-cdnwhjr.whjr.online/website/curriculumpdf/02-04-2021/int.pdf"
+              target="_blank"
+              rel="noreferrer noopener"
+              >View Detailed curriculum</a
+            >
+          </p>
+        </div>
+        <div class="endSec">
+          <section class="flex">
+            <h1 class="endText">Rs. 6,399</h1>
+            <h3 class="endTL">Rs. 6,799</h3>
+          </section>
+          <p class="endPara">Price Per Class Rs. 800</p>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="cardItem card2">
+        <div class="cardHeading H-second">
+          <h2 class="cardText">App Developer Certificate</h2>
+          <section class="flex">
+            <p class="right">48 Classes</p>
+            <p class="left L-second">Save 10%</p>
+          </section>
+        </div>
+        <div class="subHeading">
+          <h3 class="subHeadText">Curriculum Includes</h3>
+          <p class="label">Introduction to Coding</p>
+          <p class="subText">
+            Events / UI,Conditionals, Complex Loop, Logic Structures, Turtle
+            Coding
+          </p>
+          <p class="subText2">
+            <a
+              href="https://s3-cdnwhjr.whjr.online/website/curriculumpdf/02-04-2021/int.pdf"
+              target="_blank"
+              rel="noreferrer noopener"
+              >View Detailed curriculum</a
+            >
+          </p>
+        </div>
+        <div class="endSec">
+          <section class="flex">
+            <h1 class="endText">Rs. 35,999</h1>
+            <h3 class="endTL">Rs. 39,999</h3>
+          </section>
+          <p class="endPara">Price Per Class Rs. 800</p>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="cardItem card3">
+        <div class="cardHeading H-third">
+          <h2 class="cardText">Advance Coding with Space Tech</h2>
+          <section class="flex">
+            <p class="right">144 Classes</p>
+            <p class="left L-third">Save 16%</p>
+          </section>
+        </div>
+        <div class="subHeading">
+          <h3 class="subHeadText">Curriculum Includes</h3>
+          <p class="label">Introduction to Coding</p>
+          <p class="label">App Developer Certificate</p>
+          <p class="subText">
+            Extended UI/UX, Rich GUI app, Space Tech simulation in Space Lab /
+            Game Lab, Professional Game Design
+          </p>
+          <p class="subText2">
+            <a
+              href="https://s3-cdnwhjr.whjr.online/website/curriculumpdf/02-04-2021/int.pdf"
+              target="_blank"
+              rel="noreferrer noopener"
+              >View Detailed curriculum</a
+            >
+          </p>
+        </div>
+        <div class="endSec">
+          <section class="flex">
+            <h1 class="endText">Rs. 99,999</h1>
+            <h3 class="endTL">Rs. 119,999</h3>
+          </section>
+          <p class="endPara">Price Per Class Rs. 800</p>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="cardItem card1">
+        <div class="cardHeading H-first">
+          <h2 class="cardText">Introduction To Coding</h2>
+          <section class="flex">
+            <p class="right">8 Classes</p>
+            <p class="left L-first">Save 5%</p>
+          </section>
+        </div>
+        <div class="subHeading">
+          <h3 class="subHeadText">Curriculum Includes</h3>
+          <p class="subText">Sequence, Fundamentals Coding Blocks, Loops</p>
+          <p class="subText2">
+            <a
+              href="https://s3-cdnwhjr.whjr.online/website/curriculumpdf/02-04-2021/int.pdf"
+              target="_blank"
+              rel="noreferrer noopener"
+              >View Detailed curriculum</a
+            >
+          </p>
+        </div>
+        <div class="endSec">
+          <section class="flex">
+            <h1 class="endText">Rs. 6,399</h1>
+            <h3 class="endTL">Rs. 6,799</h3>
+          </section>
+          <p class="endPara">Price Per Class Rs. 800</p>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="cardItem card2">
+        <div class="cardHeading H-second">
+          <h2 class="cardText">App Developer Certificate</h2>
+          <section class="flex">
+            <p class="right">48 Classes</p>
+            <p class="left L-second">Save 10%</p>
+          </section>
+        </div>
+        <div class="subHeading">
+          <h3 class="subHeadText">Curriculum Includes</h3>
+          <p class="label">Introduction to Coding</p>
+          <p class="subText">
+            Events / UI,Conditionals, Complex Loop, Logic Structures, Turtle
+            Coding
+          </p>
+          <p class="subText2">
+            <a
+              href="https://s3-cdnwhjr.whjr.online/website/curriculumpdf/02-04-2021/int.pdf"
+              target="_blank"
+              rel="noreferrer noopener"
+              >View Detailed curriculum</a
+            >
+          </p>
+        </div>
+        <div class="endSec">
+          <section class="flex">
+            <h1 class="endText">Rs. 35,999</h1>
+            <h3 class="endTL">Rs. 39,999</h3>
+          </section>
+          <p class="endPara">Price Per Class Rs. 800</p>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="cardItem card3">
+        <div class="cardHeading H-third">
+          <h2 class="cardText">Advance Coding with Space Tech</h2>
+          <section class="flex">
+            <p class="right">144 Classes</p>
+            <p class="left L-third">Save 16%</p>
+          </section>
+        </div>
+        <div class="subHeading">
+          <h3 class="subHeadText">Curriculum Includes</h3>
+          <p class="label">Introduction to Coding</p>
+          <p class="label">App Developer Certificate</p>
+          <p class="subText">
+            Extended UI/UX, Rich GUI app, Space Tech simulation in Space Lab /
+            Game Lab, Professional Game Design
+          </p>
+          <p class="subText2">
+            <a
+              href="https://s3-cdnwhjr.whjr.online/website/curriculumpdf/02-04-2021/int.pdf"
+              target="_blank"
+              rel="noreferrer noopener"
+              >View Detailed curriculum</a
+            >
+          </p>
+        </div>
+        <div class="endSec">
+          <section class="flex">
+            <h1 class="endText">Rs. 99,999</h1>
+            <h3 class="endTL">Rs. 119,999</h3>
+          </section>
+          <p class="endPara">Price Per Class Rs. 800</p>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="cardItem card1">
+        <div class="cardHeading H-first">
+          <h2 class="cardText">Introduction To Coding</h2>
+          <section class="flex">
+            <p class="right">8 Classes</p>
+            <p class="left L-first">Save 5%</p>
+          </section>
+        </div>
+        <div class="subHeading">
+          <h3 class="subHeadText">Curriculum Includes</h3>
+          <p class="subText">Sequence, Fundamentals Coding Blocks, Loops</p>
+          <p class="subText2">
+            <a
+              href="https://s3-cdnwhjr.whjr.online/website/curriculumpdf/02-04-2021/int.pdf"
+              target="_blank"
+              rel="noreferrer noopener"
+              >View Detailed curriculum</a
+            >
+          </p>
+        </div>
+        <div class="endSec">
+          <section class="flex">
+            <h1 class="endText">Rs. 6,399</h1>
+            <h3 class="endTL">Rs. 6,799</h3>
+          </section>
+          <p class="endPara">Price Per Class Rs. 800</p>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="cardItem card2">
+        <div class="cardHeading H-second">
+          <h2 class="cardText">App Developer Certificate</h2>
+          <section class="flex">
+            <p class="right">48 Classes</p>
+            <p class="left L-second">Save 10%</p>
+          </section>
+        </div>
+        <div class="subHeading">
+          <h3 class="subHeadText">Curriculum Includes</h3>
+          <p class="label">Introduction to Coding</p>
+          <p class="subText">
+            Events / UI,Conditionals, Complex Loop, Logic Structures, Turtle
+            Coding
+          </p>
+          <p class="subText2">
+            <a
+              href="https://s3-cdnwhjr.whjr.online/website/curriculumpdf/02-04-2021/int.pdf"
+              target="_blank"
+              rel="noreferrer noopener"
+              >View Detailed curriculum</a
+            >
+          </p>
+        </div>
+        <div class="endSec">
+          <section class="flex">
+            <h1 class="endText">Rs. 35,999</h1>
+            <h3 class="endTL">Rs. 39,999</h3>
+          </section>
+          <p class="endPara">Price Per Class Rs. 800</p>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="cardItem card3">
+        <div class="cardHeading H-third">
+          <h2 class="cardText">Advance Coding with Space Tech</h2>
+          <section class="flex">
+            <p class="right">144 Classes</p>
+            <p class="left L-third">Save 16%</p>
+          </section>
+        </div>
+        <div class="subHeading">
+          <h3 class="subHeadText">Curriculum Includes</h3>
+          <p class="label">Introduction to Coding</p>
+          <p class="label">App Developer Certificate</p>
+          <p class="subText">
+            Extended UI/UX, Rich GUI app, Space Tech simulation in Space Lab /
+            Game Lab, Professional Game Design
+          </p>
+          <p class="subText2">
+            <a
+              href="https://s3-cdnwhjr.whjr.online/website/curriculumpdf/02-04-2021/int.pdf"
+              target="_blank"
+              rel="noreferrer noopener"
+              >View Detailed curriculum</a
+            >
+          </p>
+        </div>
+        <div class="endSec">
+          <section class="flex">
+            <h1 class="endText">Rs. 99,999</h1>
+            <h3 class="endTL">Rs. 119,999</h3>
+          </section>
+          <p class="endPara">Price Per Class Rs. 800</p>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="cardItem card1">
+        <div class="cardHeading H-first">
+          <h2 class="cardText">Introduction To Coding</h2>
+          <section class="flex">
+            <p class="right">8 Classes</p>
+            <p class="left L-first">Save 5%</p>
+          </section>
+        </div>
+        <div class="subHeading">
+          <h3 class="subHeadText">Curriculum Includes</h3>
+          <p class="subText">Sequence, Fundamentals Coding Blocks, Loops</p>
+          <p class="subText2">
+            <a
+              href="https://s3-cdnwhjr.whjr.online/website/curriculumpdf/02-04-2021/int.pdf"
+              target="_blank"
+              rel="noreferrer noopener"
+              >View Detailed curriculum</a
+            >
+          </p>
+        </div>
+        <div class="endSec">
+          <section class="flex">
+            <h1 class="endText">Rs. 6,399</h1>
+            <h3 class="endTL">Rs. 6,799</h3>
+          </section>
+          <p class="endPara">Price Per Class Rs. 800</p>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="cardItem card2">
+        <div class="cardHeading H-second">
+          <h2 class="cardText">App Developer Certificate</h2>
+          <section class="flex">
+            <p class="right">48 Classes</p>
+            <p class="left L-second">Save 10%</p>
+          </section>
+        </div>
+        <div class="subHeading">
+          <h3 class="subHeadText">Curriculum Includes</h3>
+          <p class="label">Introduction to Coding</p>
+          <p class="subText">
+            Events / UI,Conditionals, Complex Loop, Logic Structures, Turtle
+            Coding
+          </p>
+          <p class="subText2">
+            <a
+              href="https://s3-cdnwhjr.whjr.online/website/curriculumpdf/02-04-2021/int.pdf"
+              target="_blank"
+              rel="noreferrer noopener"
+              >View Detailed curriculum</a
+            >
+          </p>
+        </div>
+        <div class="endSec">
+          <section class="flex">
+            <h1 class="endText">Rs. 35,999</h1>
+            <h3 class="endTL">Rs. 39,999</h3>
+          </section>
+          <p class="endPara">Price Per Class Rs. 800</p>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="cardItem card3">
+        <div class="cardHeading H-third">
+          <h2 class="cardText">Advance Coding with Space Tech</h2>
+          <section class="flex">
+            <p class="right">144 Classes</p>
+            <p class="left L-third">Save 16%</p>
+          </section>
+        </div>
+        <div class="subHeading">
+          <h3 class="subHeadText">Curriculum Includes</h3>
+          <p class="label">Introduction to Coding</p>
+          <p class="label">App Developer Certificate</p>
+          <p class="subText">
+            Extended UI/UX, Rich GUI app, Space Tech simulation in Space Lab /
+            Game Lab, Professional Game Design
+          </p>
+          <p class="subText2">
+            <a
+              href="https://s3-cdnwhjr.whjr.online/website/curriculumpdf/02-04-2021/int.pdf"
+              target="_blank"
+              rel="noreferrer noopener"
+              >View Detailed curriculum</a
+            >
+          </p>
+        </div>
+        <div class="endSec">
+          <section class="flex">
+            <h1 class="endText">Rs. 99,999</h1>
+            <h3 class="endTL">Rs. 119,999</h3>
+          </section>
+          <p class="endPara">Price Per Class Rs. 800</p>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/0.0.2/barba.min.js"></script>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
